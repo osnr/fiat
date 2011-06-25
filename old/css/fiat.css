@@ -1,0 +1,36 @@
+body {
+	font-family: Helvetica, sans-serif, Arial;
+}
+#world-maker {
+	min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto;
+    min-width: 600px;
+    max-width: 800px;
+}
+
+p.civ-heading {
+	border-bottom: #333 1px solid;
+	margin-bottom: 0px;
+}
+div.civ {
+	background-color:#EFFFEF;
+}
+
+p.state-heading {
+	border-bottom: #333 1px solid;
+	margin-bottom: 0px;
+}
+div.state {
+	background-color:#EFEFEF;
+}
+
+.stat {
+	font-weight: bold;
+}
+
+.official-name {
+	font-weight: normal;
+	font-style: italic;
+}

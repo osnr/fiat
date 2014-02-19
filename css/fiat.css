@@ -3,11 +3,11 @@ body {
 }
 #world-maker {
 	min-height: 100%;
-    height: auto !important;
-    height: 100%;
-    margin: 0 auto;
-    min-width: 600px;
-    max-width: 800px;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto;
+	min-width: 600px;
+	max-width: 800px;
 }
 
 p.civ-heading {
@@ -33,4 +33,10 @@ div.state {
 .official-name {
 	font-weight: normal;
 	font-style: italic;
+}
+
+/* TODO make dotted underline more general for everything w/ descriptions */
+.culture, .unity {
+	border-bottom: 1px black dotted;
+	cursor: help;
 }
